@@ -10,3 +10,19 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.rectangulo{
+    display: flex;
+    text-align: center;
+    background: black;
+    margin: auto;
+    font-size: 80px;
+    width: 1000px;
+    color:white;
+    gap: 20px;
+    
+}
+.rectangulo > div{
+    padding: 36px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
